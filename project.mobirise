@@ -80,7 +80,7 @@
           ],
           "_name": "header3",
           "_anchor": "header3-e",
-          "title": "AI assisted productivity tool for the fluid workforce",
+          "title": "<b>AI</b> assisted productivity tool for the fluid workforce",
           "_params": {
             "showMeta": true
           },
@@ -90,6 +90,9 @@
               "font-family": "'Alegreya Sans', sans-serif",
               "googleLink": "https://fonts.googleapis.com/css?family=Alegreya+Sans:400,700&subset=latin,vietnamese,latin-ext",
               "color": "#0275d8"
+            },
+            "B": {
+              "color": "#000000"
             }
           }
         },
@@ -202,68 +205,6 @@
             "Theme"
           ],
           "_name": "msg-box4",
-          "_anchor": "msg-box4-6",
-          "_params": {
-            "imageSize": "18",
-            "paddingTop": "2",
-            "paddingBottom": "2",
-            "bgImageRadio": false,
-            "parallax": true,
-            "bgImage": "file:///Users/vikrampothnis/Library/Application%20Support/Mobirise.com/Mobirise/projectData/photo-3.jpg",
-            "bgColor": "#fbfbfb",
-            "bgColorRadio": true,
-            "bgVideo": {
-              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "bgVideoRadio": false,
-            "overlay": false,
-            "overlayOpacity": 0.5,
-            "overlayColor": "#fff",
-            "inverse": false,
-            "showTitle": true,
-            "showMeta": false,
-            "showText": true,
-            "showButtons": false
-          },
-          "media": {
-            "image": {
-              "active": true,
-              "width": 1400,
-              "src": "@PROJECT_PATH@/assets/images/mbr-1400x933.jpg",
-              "link": "index.html#msg-box4-7",
-              "alt": "",
-              "title": "",
-              "linkInNewWindow": false
-            },
-            "video": {
-              "src": "https://www.youtube.com/embed/sOSTC6FM6Bw",
-              "aspectratio": "16:9",
-              "autoplay": false,
-              "loop": false
-            },
-            "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-msg-box4",
-              "link": "",
-              "size": 0
-            }
-          },
-          "title": "Attendance tracking",
-          "meta": "By John Smith posted July 30, 2015",
-          "text": "<p>Mobirise helps you cut down development time by providing you with a flexible website editor.</p>",
-          "button": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-secondary-outline\" href=\"https://mobirise.com\">More</a>",
-          "_styles": {
-            ".mbr-section-title": {
-              "color": "#0275d8"
-            }
-          }
-        },
-        {
-          "_inherit": "msg-box5",
-          "alias": "purity/components",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "msg-box4",
           "_anchor": "msg-box4-7",
           "_params": {
             "imageSize": "18",
@@ -310,6 +251,68 @@
             }
           },
           "title": "Leave Management",
+          "meta": "By John Smith posted July 30, 2015",
+          "text": "<p>Mobirise helps you cut down development time by providing you with a flexible website editor.</p>",
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-secondary-outline\" href=\"https://mobirise.com\">More</a>",
+          "_styles": {
+            ".mbr-section-title": {
+              "color": "#0275d8"
+            }
+          }
+        },
+        {
+          "_inherit": "msg-box5",
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box4",
+          "_anchor": "msg-box4-6",
+          "_params": {
+            "imageSize": "18",
+            "paddingTop": "2",
+            "paddingBottom": "2",
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "file:///Users/vikrampothnis/Library/Application%20Support/Mobirise.com/Mobirise/projectData/photo-3.jpg",
+            "bgColor": "#fbfbfb",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#fff",
+            "inverse": false,
+            "showTitle": true,
+            "showMeta": false,
+            "showText": true,
+            "showButtons": false
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/mbr-1400x933.jpg",
+              "link": "index.html#msg-box4-7",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "video": {
+              "src": "https://www.youtube.com/embed/sOSTC6FM6Bw",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-msg-box4",
+              "link": "",
+              "size": 0
+            }
+          },
+          "title": "Attendance tracking",
           "meta": "By John Smith posted July 30, 2015",
           "text": "<p>Mobirise helps you cut down development time by providing you with a flexible website editor.</p>",
           "button": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-secondary-outline\" href=\"https://mobirise.com\">More</a>",
