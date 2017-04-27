@@ -8,7 +8,7 @@
       "styling": {}
     },
     "versionFirst": "3.12.1",
-    "uniqCompNum": 15,
+    "uniqCompNum": 16,
     "versionPublish": "3.12.1"
   },
   "pages": {
@@ -29,6 +29,19 @@
             "Theme"
           ],
           "_name": "ext.menu",
+          "_styles": {
+            ".navbar-toggler": {
+              "color": "#d9534f"
+            },
+            ".nav-link": {
+              "font-size": "24px",
+              "font-family": "'Alegreya Sans', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Alegreya+Sans:400,700&subset=latin,vietnamese,latin-ext"
+            },
+            ".navbar-brand": {
+              "font-size": "46px"
+            }
+          },
           "_anchor": "ext_menu-2",
           "_params": {
             "hamburgerColor": "#d9534f",
@@ -58,43 +71,44 @@
           },
           "brand": "<a class=\"navbar-brand text-primary\" data-app-btn=\"true\" href=\"https://mobirise.com\" data-app-selector=\".navbar-brand\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\"><span class=\"mbri-setting3 mbr-iconfont mbr-iconfont-btn\"></span>Simpli5</a>",
           "buttons": "<li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"btn btn-secondary-outline\" data-app-selector=\".navbar-nav .btn\" href=\"https://mobirise.com\">Download</a></li>",
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"nav-link text-primary\" data-app-selector=\".nav-link\" href=\"https://mobirise.com\">Home</a></li><li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"nav-link text-primary\" data-app-selector=\".nav-link\" href=\"https://mobirise.com\">About</a></li><li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"nav-link text-primary\" data-app-selector=\".nav-link\" href=\"https://mobirise.com\">Contact</a></li>",
-          "_styles": {
-            ".navbar-toggler": {
-              "color": "#d9534f"
-            },
-            ".nav-link": {
-              "font-size": "24px",
-              "font-family": "'Alegreya Sans', sans-serif",
-              "googleLink": "https://fonts.googleapis.com/css?family=Alegreya+Sans:400,700&subset=latin,vietnamese,latin-ext"
-            },
-            ".navbar-brand": {
-              "font-size": "46px"
-            }
-          }
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"nav-link text-primary\" data-app-selector=\".nav-link\" href=\"https://mobirise.com\">Home</a></li><li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"nav-link text-primary\" data-app-selector=\".nav-link\" href=\"https://mobirise.com\">About</a></li><li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"nav-link text-primary\" data-app-selector=\".nav-link\" href=\"https://mobirise.com\">Contact</a></li>"
         },
         {
           "alias": "purity/components",
           "_tags": [
             "Theme"
           ],
-          "_name": "header3",
-          "_anchor": "header3-e",
-          "title": "<b>AI</b> assisted productivity tool for the fluid workforce",
-          "_params": {
-            "showMeta": true
-          },
-          "meta": "",
+          "_name": "content5",
           "_styles": {
-            "H3": {
+            ".mbr-section-title": {
+              "font-size": "46px",
+              "text-align": "center",
               "font-family": "'Alegreya Sans', sans-serif",
               "googleLink": "https://fonts.googleapis.com/css?family=Alegreya+Sans:400,700&subset=latin,vietnamese,latin-ext",
-              "color": "#0275d8"
-            },
-            "B": {
               "color": "#000000"
             }
-          }
+          },
+          "_anchor": "content5-f",
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": true,
+            "parallax": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/mbr-2000x1333.jpg",
+            "bgColor": "#fff",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": "0.7",
+            "overlayColor": "#fff",
+            "showTitle": true,
+            "showCaption": true
+          },
+          "title": "AI assisted productivity tool for the fluid workforce",
+          "caption": ""
         },
         {
           "alias": "purity/components",
@@ -102,6 +116,11 @@
             "Theme"
           ],
           "_name": "form2",
+          "_styles": {
+            ".mbr-section-title": {
+              "color": "#0275d8"
+            }
+          },
           "_anchor": "form2-b",
           "_params": {
             "paddingTop": 3,
@@ -129,12 +148,7 @@
               }
             }
           },
-          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-black\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">Subscribe</a>",
-          "_styles": {
-            ".mbr-section-title": {
-              "color": "#0275d8"
-            }
-          }
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-black\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">\u001b\u001bAdd me</a>"
         },
         {
           "_inherit": "msg-box5",
@@ -143,6 +157,11 @@
             "Theme"
           ],
           "_name": "msg-box4",
+          "_styles": {
+            ".mbr-section-title": {
+              "color": "#0275d8"
+            }
+          },
           "_anchor": "msg-box4-4",
           "_params": {
             "imageSize": "18",
@@ -188,15 +207,10 @@
               "size": 0
             }
           },
-          "title": "Employee Scheduling",
+          "title": "Patern based Employee Scheduling",
           "meta": "By John Smith posted July 30, 2015",
-          "text": "<p>Mobirise helps you cut down development time by providing you with a flexible website editor.</p>",
-          "button": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-secondary-outline\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">More</a>",
-          "_styles": {
-            ".mbr-section-title": {
-              "color": "#0275d8"
-            }
-          }
+          "text": "",
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-secondary-outline\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">More</a>"
         },
         {
           "_inherit": "msg-box5",
@@ -205,6 +219,11 @@
             "Theme"
           ],
           "_name": "msg-box4",
+          "_styles": {
+            ".mbr-section-title": {
+              "color": "#0275d8"
+            }
+          },
           "_anchor": "msg-box4-7",
           "_params": {
             "imageSize": "18",
@@ -214,68 +233,6 @@
             "parallax": true,
             "bgImage": "file:///Users/vikrampothnis/Library/Application%20Support/Mobirise.com/Mobirise/projectData/photo-3.jpg",
             "bgColor": "#fff",
-            "bgColorRadio": true,
-            "bgVideo": {
-              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "bgVideoRadio": false,
-            "overlay": false,
-            "overlayOpacity": 0.5,
-            "overlayColor": "#fff",
-            "inverse": true,
-            "showTitle": true,
-            "showMeta": false,
-            "showText": true,
-            "showButtons": false
-          },
-          "media": {
-            "image": {
-              "active": true,
-              "width": 1400,
-              "src": "@PROJECT_PATH@/assets/images/mbr-1400x933.jpg",
-              "link": "index.html#msg-box4-7",
-              "alt": "",
-              "title": "",
-              "linkInNewWindow": false
-            },
-            "video": {
-              "src": "https://www.youtube.com/embed/sOSTC6FM6Bw",
-              "aspectratio": "16:9",
-              "autoplay": false,
-              "loop": false
-            },
-            "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-msg-box4",
-              "link": "",
-              "size": 0
-            }
-          },
-          "title": "Leave Management",
-          "meta": "By John Smith posted July 30, 2015",
-          "text": "<p>Mobirise helps you cut down development time by providing you with a flexible website editor.</p>",
-          "button": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-secondary-outline\" href=\"https://mobirise.com\">More</a>",
-          "_styles": {
-            ".mbr-section-title": {
-              "color": "#0275d8"
-            }
-          }
-        },
-        {
-          "_inherit": "msg-box5",
-          "alias": "purity/components",
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "msg-box4",
-          "_anchor": "msg-box4-6",
-          "_params": {
-            "imageSize": "18",
-            "paddingTop": "2",
-            "paddingBottom": "2",
-            "bgImageRadio": false,
-            "parallax": true,
-            "bgImage": "file:///Users/vikrampothnis/Library/Application%20Support/Mobirise.com/Mobirise/projectData/photo-3.jpg",
-            "bgColor": "#fbfbfb",
             "bgColorRadio": true,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
@@ -312,15 +269,72 @@
               "size": 0
             }
           },
-          "title": "Attendance tracking",
+          "title": "Leave Management",
           "meta": "By John Smith posted July 30, 2015",
-          "text": "<p>Mobirise helps you cut down development time by providing you with a flexible website editor.</p>",
-          "button": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-secondary-outline\" href=\"https://mobirise.com\">More</a>",
+          "text": "",
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-secondary-outline\" href=\"https://mobirise.com\">More</a>"
+        },
+        {
+          "_inherit": "msg-box5",
+          "alias": "purity/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box4",
           "_styles": {
             ".mbr-section-title": {
               "color": "#0275d8"
             }
-          }
+          },
+          "_anchor": "msg-box4-6",
+          "_params": {
+            "imageSize": "18",
+            "paddingTop": "2",
+            "paddingBottom": "2",
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "file:///Users/vikrampothnis/Library/Application%20Support/Mobirise.com/Mobirise/projectData/photo-3.jpg",
+            "bgColor": "#fbfbfb",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#fff",
+            "inverse": true,
+            "showTitle": true,
+            "showMeta": false,
+            "showText": true,
+            "showButtons": false
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/mbr-1400x933.jpg",
+              "link": "index.html#msg-box4-7",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "video": {
+              "src": "https://www.youtube.com/embed/sOSTC6FM6Bw",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-msg-box4",
+              "link": "",
+              "size": 0
+            }
+          },
+          "title": "Automated attendance tracking",
+          "meta": "By John Smith posted July 30, 2015",
+          "text": "",
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-secondary-outline\" href=\"https://mobirise.com\">More</a>"
         },
         {
           "alias": "purity/components",
@@ -328,6 +342,14 @@
             "Theme"
           ],
           "_name": "contacts1",
+          "_styles": {
+            "UL": {
+              "color": "#000000"
+            },
+            "P": {
+              "color": "#000000"
+            }
+          },
           "_anchor": "contacts1-9",
           "_params": {
             "paddingTop": "3",
@@ -335,7 +357,7 @@
             "bgImageRadio": false,
             "parallax": true,
             "bgImage": "@THEME_PATH@/components/_images/photo-3.jpg",
-            "bgColor": "#fbfbfb",
+            "bgColor": "#ffffff",
             "bgColorRadio": true,
             "overlay": true,
             "overlayOpacity": 0.8,
@@ -358,15 +380,7 @@
           },
           "text1": "<strong>Address</strong><br>Bangalore",
           "text2": "<strong>Contacts</strong><br>\nEmail: support@simpli5.com<br>\nPhone: +1 (0) 000 0000 001<br>\nFax: +1 (0) 000 0000 002",
-          "text3": "",
-          "_styles": {
-            "UL": {
-              "color": "#000000"
-            },
-            "P": {
-              "color": "#000000"
-            }
-          }
+          "text3": ""
         }
       ]
     }
