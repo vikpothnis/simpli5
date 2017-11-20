@@ -71,7 +71,7 @@
           },
           "brand": "<a class=\"navbar-brand text-primary\" data-app-btn=\"true\" href=\"https://mobirise.com\" data-app-selector=\".navbar-brand\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\"><span class=\"mbri-setting3 mbr-iconfont mbr-iconfont-btn\"></span>Simpli5</a>",
           "buttons": "<li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"btn btn-secondary-outline\" data-app-selector=\".navbar-nav .btn\" href=\"https://mobirise.com\">Download</a></li>",
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"nav-link text-primary\" data-app-selector=\".nav-link\" href=\"#top\">Home</a></li><li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"nav-link text-primary\" data-app-selector=\".nav-link\" href=\"#top\">About</a></li><li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"nav-link text-primary\" data-app-selector=\".nav-link\" href=\"#top\">Contact</a></li>"
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"nav-link text-primary\" data-app-selector=\".nav-link\" href=\"#top\">Home</a></li>"
         },
         {
           "alias": "purity/components",
