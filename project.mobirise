@@ -9,7 +9,7 @@
     },
     "versionFirst": "3.12.1",
     "uniqCompNum": 16,
-    "versionPublish": "3.12.1"
+    "versionPublish": "4.4.1"
   },
   "pages": {
     "index.html": {
@@ -31,7 +31,7 @@
           "_name": "ext.menu",
           "_styles": {
             ".navbar-toggler": {
-              "color": "#d9534f"
+              "color": "#0275d8"
             },
             ".nav-link": {
               "font-size": "24px",
@@ -44,14 +44,14 @@
           },
           "_anchor": "ext_menu-2",
           "_params": {
-            "hamburgerColor": "#d9534f",
-            "sticky": true,
-            "transparent": true,
-            "color": "#fff",
-            "collapsed": true,
             "logo": false,
             "showBrand": true,
-            "showButtons": false
+            "showButtons": false,
+            "sticky": true,
+            "collapsed": true,
+            "transparent": true,
+            "color": "#fff",
+            "hamburgerColor": "#0275d8"
           },
           "logo": {
             "image": {
@@ -71,7 +71,7 @@
           },
           "brand": "<a class=\"navbar-brand text-primary\" data-app-btn=\"true\" href=\"https://mobirise.com\" data-app-selector=\".navbar-brand\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\"><span class=\"mbri-setting3 mbr-iconfont mbr-iconfont-btn\"></span>Simpli5</a>",
           "buttons": "<li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"btn btn-secondary-outline\" data-app-selector=\".navbar-nav .btn\" href=\"https://mobirise.com\">Download</a></li>",
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"nav-link text-primary\" data-app-selector=\".nav-link\" href=\"https://mobirise.com\">Home</a></li><li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"nav-link text-primary\" data-app-selector=\".nav-link\" href=\"https://mobirise.com\">About</a></li><li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"nav-link text-primary\" data-app-selector=\".nav-link\" href=\"https://mobirise.com\">Contact</a></li>"
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"nav-link text-primary\" data-app-selector=\".nav-link\" href=\"#top\">Home</a></li><li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"nav-link text-primary\" data-app-selector=\".nav-link\" href=\"#top\">About</a></li><li class=\"nav-item\"><a data-app-btn=\"parent\" class=\"nav-link text-primary\" data-app-selector=\".nav-link\" href=\"#top\">Contact</a></li>"
         },
         {
           "alias": "purity/components",
@@ -90,22 +90,22 @@
           },
           "_anchor": "content5-f",
           "_params": {
-            "paddingTop": 3,
+            "showTitle": true,
+            "showCaption": true,
+            "paddingTop": "3",
             "paddingBottom": 3,
             "bgImageRadio": true,
-            "parallax": true,
             "bgImage": "@PROJECT_PATH@/assets/images/mbr-2000x1333.jpg",
-            "bgColor": "#fff",
+            "parallax": true,
             "bgColorRadio": false,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
-            "bgVideoRadio": false,
             "overlay": true,
-            "overlayOpacity": "0.7",
             "overlayColor": "#fff",
-            "showTitle": true,
-            "showCaption": true
+            "overlayOpacity": "0.7"
           },
           "title": "AI assisted productivity tool for the fluid workforce",
           "caption": ""
@@ -123,17 +123,17 @@
           },
           "_anchor": "form2-b",
           "_params": {
+            "showTitle": true,
             "paddingTop": 3,
             "paddingBottom": 3,
             "bgImageRadio": false,
-            "parallax": true,
             "bgImage": "@THEME_PATH@/components/_images/photo-3.jpg",
-            "bgColor": "#ffffff",
+            "parallax": true,
             "bgColorRadio": true,
+            "bgColor": "#ffffff",
             "overlay": false,
-            "overlayOpacity": 0.5,
             "overlayColor": "#222",
-            "showTitle": true
+            "overlayOpacity": 0.5
           },
           "title": "Sign up for early access",
           "form": {
@@ -164,26 +164,26 @@
           },
           "_anchor": "msg-box4-4",
           "_params": {
+            "showTitle": true,
+            "showMeta": false,
+            "showText": true,
+            "showButtons": false,
+            "inverse": true,
             "imageSize": "18",
             "paddingTop": "4",
             "paddingBottom": "2",
             "bgImageRadio": false,
-            "parallax": true,
             "bgImage": "@THEME_PATH@/components/_images/photo-3.jpg",
-            "bgColor": "#fbfbfb",
+            "parallax": true,
             "bgColorRadio": true,
+            "bgColor": "#fbfbfb",
+            "bgVideoRadio": false,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
-            "bgVideoRadio": false,
             "overlay": false,
-            "overlayOpacity": 0.5,
             "overlayColor": "#fff",
-            "inverse": true,
-            "showTitle": true,
-            "showMeta": false,
-            "showText": true,
-            "showButtons": false
+            "overlayOpacity": 0.5
           },
           "media": {
             "image": {
@@ -207,7 +207,7 @@
               "size": 0
             }
           },
-          "title": "Patern based Employee Scheduling",
+          "title": "Schedule , Assign, Track , Monitor, Action <br>Patern based Employee Scheduling",
           "meta": "By John Smith posted July 30, 2015",
           "text": "",
           "button": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-secondary-outline\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">More</a>"
@@ -226,26 +226,26 @@
           },
           "_anchor": "msg-box4-7",
           "_params": {
+            "showTitle": true,
+            "showMeta": false,
+            "showText": true,
+            "showButtons": false,
+            "inverse": false,
             "imageSize": "18",
             "paddingTop": "2",
             "paddingBottom": "2",
             "bgImageRadio": false,
-            "parallax": true,
             "bgImage": "file:///Users/vikrampothnis/Library/Application%20Support/Mobirise.com/Mobirise/projectData/photo-3.jpg",
-            "bgColor": "#fff",
+            "parallax": true,
             "bgColorRadio": true,
+            "bgColor": "#fff",
+            "bgVideoRadio": false,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
-            "bgVideoRadio": false,
             "overlay": false,
-            "overlayOpacity": 0.5,
             "overlayColor": "#fff",
-            "inverse": false,
-            "showTitle": true,
-            "showMeta": false,
-            "showText": true,
-            "showButtons": false
+            "overlayOpacity": 0.5
           },
           "media": {
             "image": {
@@ -288,26 +288,26 @@
           },
           "_anchor": "msg-box4-6",
           "_params": {
+            "showTitle": true,
+            "showMeta": false,
+            "showText": true,
+            "showButtons": false,
+            "inverse": true,
             "imageSize": "18",
             "paddingTop": "2",
             "paddingBottom": "2",
             "bgImageRadio": false,
-            "parallax": true,
             "bgImage": "file:///Users/vikrampothnis/Library/Application%20Support/Mobirise.com/Mobirise/projectData/photo-3.jpg",
-            "bgColor": "#fbfbfb",
+            "parallax": true,
             "bgColorRadio": true,
+            "bgColor": "#fbfbfb",
+            "bgVideoRadio": false,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
-            "bgVideoRadio": false,
             "overlay": false,
-            "overlayOpacity": 0.5,
             "overlayColor": "#fff",
-            "inverse": true,
-            "showTitle": true,
-            "showMeta": false,
-            "showText": true,
-            "showButtons": false
+            "overlayOpacity": 0.5
           },
           "media": {
             "image": {
@@ -355,13 +355,13 @@
             "paddingTop": "3",
             "paddingBottom": "2",
             "bgImageRadio": false,
-            "parallax": true,
             "bgImage": "@THEME_PATH@/components/_images/photo-3.jpg",
-            "bgColor": "#ffffff",
+            "parallax": true,
             "bgColorRadio": true,
+            "bgColor": "#ffffff",
             "overlay": true,
-            "overlayOpacity": 0.8,
-            "overlayColor": "#3C3C3C"
+            "overlayColor": "#3C3C3C",
+            "overlayOpacity": 0.8
           },
           "logo": {
             "image": {
